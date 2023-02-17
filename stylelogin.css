@@ -1,15 +1,17 @@
 body{
     background-image: url(City-with-apartment-and-shooping-mall-Graphics-3366119-1.jpg);
     background-size: 200vh;
+    font-family: sans-serif;
 }
 
 table{
-    background-color: rgba(158, 158, 158, 0.641);
+    background-color: rgba(255, 255, 255, 0.641);
     margin-top: 150px;
     border: 1px solid;
     text-align: center;
     margin-left: auto;
     margin-right: auto; 
+    border-radius: 20px;
 }
 
 td{
@@ -18,9 +20,10 @@ td{
 }
 
 th{
-    border: 1px solid;
-    background-color: #bbb;
+    background: rgb(12,13,203);
+    background: linear-gradient(90deg, rgba(12,13,203,0.6) 11%, rgba(64,204,200,0.6) 41%, rgba(0,159,255,0.6) 100%);
     text-align: center;
-    
+    border-radius: 20px;
+    color:  white;
 }
 

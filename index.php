@@ -32,10 +32,10 @@
     <table>
         <tr>
             <th>
-                <h4>dont have a account?</h4>
+                <h4>Dont have a account?</h4>
             </th>
         <tr>
-            <td>create one here:<a conspan="2" href="create.php"><button>create account</button></a></td>
+            <td>Create one here:<a conspan="2" href="create.php"><button>Create account</button></a></td>
         </tr>
     </table>
 </body>

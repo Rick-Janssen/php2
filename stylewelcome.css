@@ -4,10 +4,11 @@ body{
     text-align: center;
 }
 table{
-    background-color: rgba(158, 158, 158, 0.641);
+    background-color: rgba(255, 255, 255, 0.641);
     margin-top: 150px;
     border: 1px solid;
     text-align: center;
+    border-radius: 10px;
     
 }
 
@@ -16,9 +17,8 @@ td{
     padding: 10px;
 }
 
-th{
-    border: 1px solid;
-    background-color: #bbb;
+th{   
+    background-color: rgba(255, 255, 255, 0.641);
     text-align: center;
 }
 
