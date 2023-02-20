@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="stylelogin.css">
     <title>create account</title>
-    <form action="index.php" method="post">
+    <form action="" method="post">
         <table>
             <tr>
                 <th colspan="2">

@@ -49,9 +49,9 @@ if (isset($_POST['password']) && (isset($_POST['username']))) {
         $foutmelding .= "<script>location.href='index.php'</script>";
         echo $foutmelding;
     }
-}
-
-
+} 
 // } 
 // }  
 ?>
+
+
