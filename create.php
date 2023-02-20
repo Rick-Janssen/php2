@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="stylelogin.css">
     <title>create account</title>
-    <form action="" method="post">
+    <form action="index.php" method="post">
         <table>
             <tr>
                 <th colspan="2">
@@ -35,10 +35,10 @@
     <table>
         <tr>
             <th>
-                <h4>already have a account </h4>
+                <h4>Already have a account </h4>
             </th>
         <tr>
-            <td> back to login page:<a conspan="2" href="index.php"><button>login page</button></a></td>
+            <td> Back to login page:<a conspan="2" href="index.php"><button>Login page</button></a></td>
         </tr>
     </table>
     <?php
