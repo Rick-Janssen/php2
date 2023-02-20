@@ -1,6 +1,6 @@
 <link rel="stylesheet" type="text/css" href="stylewelcome.css">
 <title>Rick janssen</title>
-<a href="http://stefanmars.nl/index.php?content=Home">stefan mars</a>
+<a href="http://stefanmars.nl">stefan mars</a>
 <?php
 $conn = mysqli_connect('rdbms.strato.de', 'dbu1035725', 'Stoeptegel3!3107', 'dbs10066227');
 if (!$conn) {
