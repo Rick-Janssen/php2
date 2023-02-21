@@ -18,7 +18,7 @@
                     </div>
                     <div class="forget">
                         <label for=""><input type="checkbox">Remember Me</label>
-                      
+
                     </div>
                     <button type="submit" name="Login" value="Login">Login</button>
                     <div class="register">

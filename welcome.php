@@ -1,6 +1,5 @@
 <link rel="stylesheet" type="text/css" href="stylewelcome.css">
 <title>Rick janssen</title>
-<a href="http://stefanmars.nl">stefan mars</a>
 <?php
 $conn = mysqli_connect('rdbms.strato.de', 'dbu1035725', 'Stoeptegel3!3107', 'dbs10066227');
 if (!$conn) {
@@ -54,4 +53,5 @@ if (isset($_POST['password']) && (isset($_POST['username']))) {
 // }  
 ?>
 
-
+<h2><a href="http://stefanmars.nl">stefan mars</a></h2><br><br><br><br><br><br><br><br><br><br><br>
+<h2><a href="index.php">Logout</a></h2>
