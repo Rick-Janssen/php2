@@ -3,44 +3,33 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="stylelogin.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
     <title>create account</title>
-    <form action="" method="post">
-        <table>
-            <tr>
-                <th colspan="2">
-                    <h2>create account</h2>
-                </th>
-            </tr>
-            <tr>
-                <td>Username:</td>
-                <td><input type="text" name="createUsername" required></td>
-            </tr>
-            <tr>
-                <td>Password:</td>
-                <td><input type="password" name="createPassword" required></td>
-            </tr>
-            <tr>
-                <td style="text-align: right" colspan="2"><input type="submit" name="Login" value="create"></td>
-            </tr>
-            <tr>
-                <th colspan="2">
-                    <?php print "Today is " . date("Y-m-d") . "<br>";
-                    print "Today is " . date("l"); ?>
-                </th>
-            </tr>
-        </table>
-    </form>
-    <br>
-    <table>
-        <tr>
-            <th>
-                <h4>Already have a account </h4>
-            </th>
-        <tr>
-            <td> Back to login page:<a conspan="2" href="index.php"><button>Login page</button></a></td>
-        </tr>
-    </table>
+    <body>
+    <section>
+        <div class="form-box">
+            <div class="form-value">
+                <form action="" method="post">
+                    <h2>Create Account</h2>
+                    <div class="inputbox">
+                        <ion-icon name="username-outline"></ion-icon>
+                        <input type="username" name="createUsername" required>
+                        <label for="">username</label>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <input type="password" name="createPassword" required>
+                        <label for="">Password</label>
+                    </div>
+                    <button type="submit" name="Login" value="Login">create</button>
+                    <div class="register">
+                        <p>already have a account <a href="index.php">login</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
     <?php
 
     $conn = mysqli_connect('rdbms.strato.de', 'dbu1035725', 'Stoeptegel3!3107', 'dbs10066227');

@@ -1,41 +1,31 @@
-<link rel="stylesheet" type="text/css" href="stylelogin.css">
+<link rel="stylesheet" type="text/css" href="index.css">
 <title>login</title>
-
 <body>
-    <form action="welcome.php" method="post">
-        <table>
-            <tr>
-                <th colspan="2">
+    <section>
+        <div class="form-box">
+            <div class="form-value">
+                <form action="welcome.php" method="post">
                     <h2>Login</h2>
-                </th>
-            </tr>
-            <tr>
-                <td>Username:</td>
-                <td><input type="text" name="username" required></td>
-            </tr>
-            <tr>
-                <td>Password:</td>
-                <td><input type="password" name="password" required></td>
-            </tr>
-            <tr>
-                <td style="text-align: right" colspan="2"><input type="submit" name="Login" value="Login"></td>
-            </tr>
-            <tr>
-                <th colspan="2">
-                    <?php print "Today is " . date("Y-m-d") . "<br>";
-                    print "Today is " . date("l"); ?>
-                </th>
-            </tr>
-        </table>
-    </form>
-    <br>
-    <table>
-        <tr>
-            <th>
-                <h4>Dont have a account?</h4>
-            </th>
-        <tr>
-            <td>Create one here:<a conspan="2" href="create.php"><button>Create account</button></a></td>
-        </tr>
-    </table>
+                    <div class="inputbox">
+                        <ion-icon name="username-outline"></ion-icon>
+                        <input type="username" name="username" required>
+                        <label for="">Username</label>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <input type="password" name="password" required>
+                        <label for="">Password</label>
+                    </div>
+                    <div class="forget">
+                        <label for=""><input type="checkbox">Remember Me</label>
+                      
+                    </div>
+                    <button type="submit" name="Login" value="Login">Login</button>
+                    <div class="register">
+                        <p>Don't have a account <a href="create.php">Register</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
 </body>
