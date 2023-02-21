@@ -55,3 +55,4 @@ if (isset($_POST['password']) && (isset($_POST['username']))) {
 
 <h2><a href="http://stefanmars.nl">stefan mars</a></h2><br><br><br><br><br><br><br><br><br><br><br>
 <h2><a href="index.php">Logout</a></h2>
+<h2><a href="message.php">chat</a></h2>
