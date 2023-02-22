@@ -44,7 +44,8 @@
             $sql = "INSERT INTO inlog (id, username, password)
     VALUES ('','$createUsername','$createPassword')";
             if ($conn->query($sql) === TRUE) {
-                $reroute = "<script>location.href='index.php'</script>";
+                $reroute  =  '<script>alert("account created <br> log in again")</script>';
+                $reroute .= "<script>location.href='index.php'</script>";
                 echo $reroute;
             } else {
             }
