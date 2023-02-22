@@ -15,7 +15,6 @@ if (mysqli_num_rows($result) > 0)
         $collection[] = $row;
     }
 }
-
 // $htmlTable = "<table>";
 // foreach ($collection as $value) {
 //     $htmlTable .= "<tr><td class='info'>" . $value['id'] . "</td>";
