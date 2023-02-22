@@ -39,7 +39,8 @@
     if (!empty($_POST['createUsername']) && !empty($_POST["createPassword"])) {
         if (isset($_POST['createUsername']) && isset($_POST["createPassword"])) {
             $createUsername = $_POST["createUsername"];
-            $createPassword = $_POST["createPassword"];
+            $createPassword = md5($_POST["createPassword"]);
+
             $sql = "INSERT INTO inlog (id, username, password)
     VALUES ('','$createUsername','$createPassword')";
             if ($conn->query($sql) === TRUE) {

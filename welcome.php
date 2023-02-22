@@ -16,14 +16,14 @@ if (mysqli_num_rows($result) > 0)
     }
 }
 
-$htmlTable = "<table>";
-foreach ($collection as $value) {
-    $htmlTable .= "<tr><td class='info'>" . $value['id'] . "</td>";
-    $htmlTable .= "<td class='info'>" . $value['username'] . "</td>";
-    $htmlTable .= "<td class='info'>" . $value['password'] . "</td>";
+// $htmlTable = "<table>";
+// foreach ($collection as $value) {
+//     $htmlTable .= "<tr><td class='info'>" . $value['id'] . "</td>";
+//     $htmlTable .= "<td class='info'>" . $value['username'] . "</td>";
+//     $htmlTable .= "<td class='info'>" . $value['password'] . "</td>";
 
-}
-$htmlTable .= "</table>";
+// }
+// $htmlTable .= "</table>";
 
 //echo ($render);
 //echo "<pre>"; var_dump($_POST); echo "</pre>";
@@ -36,7 +36,9 @@ if (isset($_POST['password']) && (isset($_POST['username']))) {
     $bInlogOke = false;
     $ingelogde = null;
     foreach ($collection as $person) {
-        if (($_POST["password"] == $person['password']) && ($_POST["username"] == $person['username'])) {
+        // echo md5($_POST["password"]);
+        // echo "- " . $person['password'];echo "<br>";
+        if ((md5($_POST["password"]) == $person['password']) && ($_POST["username"] == $person['username'])) {
             $bInlogOke = true;
             $ingelogde = $person;
         }
