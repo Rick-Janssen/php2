@@ -1,0 +1,22 @@
+
+body{
+    background: url('City-with-apartment-and-shooping-mall-Graphics-3366119-1.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'poppins',sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+}
+h2{
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+h3{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+ 
+}
