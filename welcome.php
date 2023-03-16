@@ -1,12 +1,12 @@
 <link rel="stylesheet" type="text/css" href="welcome.css">
 <title>Rick janssen</title>
 <?php
+
 include 'databaseconn.php';
-    SESSION_start();
     $result = mysqli_query($conn, 'SELECT * FROM `inlog`');
     $collection = [];
         if (mysqli_num_rows($result) > 0)
-            ; {
+             {
             while ($row = mysqli_fetch_assoc($result)) {
                 $collection[] = $row;
             }
@@ -21,7 +21,7 @@ include 'databaseconn.php';
                 }
             }
             if ($bInlogOke) {
-                echo "<h2>" . $ingelogde['username'] . " is ingelogd!</h2>" . $htmlTable;
+                echo "<h2>" . $ingelogde['username'] . " is ingelogd!</h2>";
             } else {
                 $foutmelding = '<script>alert("username or password incorrect!")</script>';
                 $foutmelding .= "<script>location.href='index.php'</script>";
