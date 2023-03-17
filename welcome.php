@@ -30,7 +30,7 @@ include 'databaseconn.php';
         } 
     $render  ='<h3><a href="http://stefanmars.nl">stefan mars</a></h3><br><br><br><br><br><br><br><br><br><br><br>';
     $render .='<form action="index.php" method="post"><button type="submit" id ="logout" value ="logout" name ="logout">logout</button></form>';
-    $render .='<h3><a href="message.php">chat</a></h3>';
+    $render .='<h3><a href= "colorgame.html">games</a></h3>';
     echo $render;
 
     if(!empty($post['logout'])){
