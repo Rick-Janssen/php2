@@ -1,7 +1,10 @@
+<?php
+session_start();
+?>
 <link rel="stylesheet" type="text/css" href="welcome.css">
 <title>Rick janssen</title>
 <?php
-
+session_start();
 include 'databaseconn.php';
     $result = mysqli_query($conn, 'SELECT * FROM `inlog`');
     $collection = [];
