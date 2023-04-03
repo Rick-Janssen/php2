@@ -24,7 +24,7 @@ include 'databaseconn.php';
                 }
             }
             if ($bInlogOke) {
-                echo "<h2>" . $ingelogde['username'] . " is ingelogd!</h2>";
+                echo "<h2>" . $ingelogde['username'] . " logged in!</h2>";
             } else {
                 $foutmelding = '<script>alert("username or password incorrect!")</script>';
                 $foutmelding .= "<script>location.href='index.php'</script>";
