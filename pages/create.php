@@ -21,14 +21,9 @@
                         <input type="password" name="createPassword" required>
                         <label for="">Password</label>
                     </div>
-                    <div class="inputbox">
-                        <ion-icon name="lock-closed-outline"></ion-icon>
-                        <input type="email" name="createEmail" required>
-                        <label for="">Email</label>
-                    </div>
                     <button type="submit" name="Login" value="Login">create</button>
                     <div class="register">
-                        <p>already have a account <a href="index.php">login</a></p>
+                        <p>already have a account go to Home</p>
                     </div>
                 </form>
             </div>
@@ -36,7 +31,7 @@
     </section>
 </body>
     <?php
-    include 'databaseconn.php';
+    include 'pages/databaseconn.php';
     if (!empty($_POST['createUsername']) && !empty($_POST["createPassword"])) {
         if (isset($_POST['createUsername']) && isset($_POST["createPassword"])) {
             $createUsername = $_POST["createUsername"];
