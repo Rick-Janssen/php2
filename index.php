@@ -4,8 +4,8 @@ session_start();
 if (isset($_GET["page"])) {
 
  $_SESSION["page"] = $_GET["page"];
-
-} else {
+}
+ else {
  $_SESSION["page"] = "home";
 
 }
@@ -17,7 +17,7 @@ if (isset($_GET["page"])) {
 		<h1 class="logo"><a href="index.php?page=home">Rick Janssen</a></h1>
       <ul class="main-nav">
           <li><a href="index.php?page=home">home</a></li>
-          <li><a href="index.php?page=about">about</a></li>
+          <li><a href="index.php?page=gallery">Gallery</a></li>
           <li><a href="index.php?page=portfolio">portfolio</a></li>
           <div class="dropdown">
           <li><a href="#">account</a></li>
