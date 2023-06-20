@@ -20,7 +20,7 @@ if (isset($_GET["page"])) {
           <li><a href="index.php?page=gallery">Gallery</a></li>
           <li><a href="index.php?page=portfolio">portfolio</a></li>
           <div class="dropdown">
-          <li><a href="#">account</a></li>
+          <li><a href="#">Account</a></li>
             <div class="dropdown-content">
             <a href="index.php?page=account">login</a>
             <a href="index.php?page=create">create</a>

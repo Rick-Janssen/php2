@@ -9,7 +9,6 @@
   </head>
   <body>
 
- 
     <div class="slider">
       <div class="slides">
  
@@ -48,7 +47,6 @@
       </div>
    
     </div>
-
 
     <script type="text/javascript">
     var counter = 1;
